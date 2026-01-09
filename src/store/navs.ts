@@ -21,7 +21,7 @@ export const navs = new BehaviorSubject<Navs>([
 	},
 	{
 		label: 'photos',
-		link: '//photos.aggre.dev',
+		link: '//photos.aggre.io',
 		active: false,
 	},
 ])

@@ -10,21 +10,21 @@ import { Content } from '../store/content'
 
 export const base = (
 	route: BehaviorSubject<string>,
-	content: BehaviorSubject<Content>
+	content: BehaviorSubject<Content>,
 ): ReadonlySet<Subscription> =>
 	new Set<Subscription>()
 		.add(route.subscribe((x) => history.pushState(undefined, '', x)))
 		.add(route.subscribe((x) => navs.next(changeActive(navs.value, x))))
 		.add(
 			route.subscribe(async (x) =>
-				fetchContent(x).then((text) => content.next(parseContent(text)))
-			)
+				fetchContent(x).then((text) => content.next(parseContent(text))),
+			),
 		)
 		.add(
 			content.subscribe((x) => {
 				// eslint-disable-next-line functional/no-expression-statement, functional/immutable-data
-				document.title = x.meta?.title || 'aggre.dev'
+				document.title = x.meta?.title || 'aggre.io'
 				// eslint-disable-next-line functional/no-expression-statement
 				render(head(route.value, x ? x.meta : undefined), document.head)
-			})
+			}),
 		)

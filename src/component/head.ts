@@ -4,8 +4,8 @@ import { html, TemplateResult } from 'lit'
 export const head = (
 	route: string,
 	meta?: ContentMeta,
-	domain = 'aggre.dev',
-	protocol = 'https'
+	domain = 'aggre.io',
+	protocol = 'https',
 ): TemplateResult => html`
 	<script
 		async
@@ -41,7 +41,7 @@ export const head = (
 					name="twitter:image"
 					content="${protocol}://${domain}${meta.image}"
 				/>
-		  `
+			`
 		: ''} <meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="//twitter.com/aggre_" />
 	<link

@@ -5,7 +5,8 @@
 const write = require('write')
 const micro = require('micro')
 const handler = require('serve-handler')
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-core')
+const chromium = require('@sparticuz/chromium')
 const { listFiles } = require('list-files-in-dir')
 const serveConfig = require('./serve.json')
 const port = 5555
@@ -40,8 +41,9 @@ const getHTML = (browser) => async (pathname) => {
 			),
 	)
 	const browser = await puppeteer.launch({
-		headless: 'new',
-		args: ['--no-sandbox', '--disable-setuid-sandbox'],
+		headless: chromium.headless,
+		args: chromium.args,
+		executablePath: await chromium.executablePath(),
 	})
 	const ssr = getHTML(browser)
 	const htmls = await Promise.all(pages.map(ssr))

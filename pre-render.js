@@ -30,24 +30,24 @@ const getHTML = (browser) => async (pathname) => {
 }
 ;(async () => {
 	const serve = await micro((req, res) =>
-		handler(req, res, serveConfig)
+		handler(req, res, serveConfig),
 	).listen(port)
 	const pages = await listFiles('content').then((fls) =>
 		fls
 			.filter((f) => f.endsWith('.md'))
 			.map((f) =>
-				f.replace(`${__dirname}/content`, '').replace(/(\.md|index)/g, '')
-			)
+				f.replace(`${__dirname}/content`, '').replace(/(\.md|index)/g, ''),
+			),
 	)
 	const browser = await puppeteer.launch({
-		headless: true,
+		headless: 'new',
 		args: ['--no-sandbox', '--disable-setuid-sandbox'],
 	})
 	const ssr = getHTML(browser)
 	const htmls = await Promise.all(pages.map(ssr))
 	await browser.close()
 	await Promise.all(
-		pages.map((page, i) => write(`dist${page}/index.html`, format(htmls[i])))
+		pages.map((page, i) => write(`dist${page}/index.html`, format(htmls[i]))),
 	)
 	serve.close()
 	console.log('completed!!!')

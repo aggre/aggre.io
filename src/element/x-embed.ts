@@ -9,6 +9,10 @@ const cls = 'activated'
 
 export class XEmbed extends HTMLElement {
 	connectedCallback(): void {
+		if (typeof window !== 'undefined' && 'happyDOM' in window) {
+			return
+		}
+
 		const template = this.querySelector('template')
 		const activated = this.querySelector(`.${cls}`)
 		if (!template || activated) {

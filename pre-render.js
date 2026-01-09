@@ -5,8 +5,7 @@
 const write = require('write')
 const micro = require('micro')
 const handler = require('serve-handler')
-const puppeteer = require('puppeteer-core')
-const chromium = require('@sparticuz/chromium')
+const { chromium } = require('playwright')
 const { listFiles } = require('list-files-in-dir')
 const serveConfig = require('./serve.json')
 const port = 5555
@@ -40,10 +39,8 @@ const getHTML = (browser) => async (pathname) => {
 				f.replace(`${__dirname}/content`, '').replace(/(\.md|index)/g, ''),
 			),
 	)
-	const browser = await puppeteer.launch({
-		headless: chromium.headless,
-		args: chromium.args,
-		executablePath: await chromium.executablePath(),
+	const browser = await chromium.launch({
+		headless: true,
 	})
 	const ssr = getHTML(browser)
 	const htmls = await Promise.all(pages.map(ssr))

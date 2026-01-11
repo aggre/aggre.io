@@ -2253,7 +2253,7 @@ __metadata:
     rollup: "npm:3.29.5"
     rxjs: "npm:7.8.2"
     serve: "npm:14.2.5"
-    serve-handler: "npm:6.1.5"
+    serve-handler: "npm:6.1.6"
     tslib: "npm:2.6.2"
     typescript: "npm:5.3.3"
     typescript-lit-html-plugin: "npm:0.9.0"
@@ -4482,15 +4482,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-url-parser@npm:1.1.3":
-  version: 1.1.3
-  resolution: "fast-url-parser@npm:1.1.3"
-  dependencies:
-    punycode: "npm:^1.3.2"
-  checksum: 10c0/d85c5c409cf0215417380f98a2d29c23a95004d93ff0d8bdf1af5f1a9d1fc608ac89ac6ffe863783d2c73efb3850dd35390feb1de3296f49877bfee0392eb5d3
-  languageName: node
-  linkType: hard
-
 "fastq@npm:^1.6.0":
   version: 1.13.0
   resolution: "fastq@npm:1.13.0"
@@ -6521,13 +6512,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-to-regexp@npm:2.2.1":
-  version: 2.2.1
-  resolution: "path-to-regexp@npm:2.2.1"
-  checksum: 10c0/f4b51090a73dad5ce0720f13ce8528ac77914bc927d72cc4ba05ab32770ad3a8d2e431962734b688b9ed863d4098d858da6ff4746037e4e24259cbd3b2c32b79
-  languageName: node
-  linkType: hard
-
 "path-to-regexp@npm:3.3.0":
   version: 3.3.0
   resolution: "path-to-regexp@npm:3.3.0"
@@ -7101,13 +7085,6 @@ __metadata:
   version: 2.3.1
   resolution: "punycode.js@npm:2.3.1"
   checksum: 10c0/1d12c1c0e06127fa5db56bd7fdf698daf9a78104456a6b67326877afc21feaa821257b171539caedd2f0524027fa38e67b13dd094159c8d70b6d26d2bea4dfdb
-  languageName: node
-  linkType: hard
-
-"punycode@npm:^1.3.2":
-  version: 1.4.1
-  resolution: "punycode@npm:1.4.1"
-  checksum: 10c0/354b743320518aef36f77013be6e15da4db24c2b4f62c5f1eb0529a6ed02fbaf1cb52925785f6ab85a962f2b590d9cd5ad730b70da72b5f180e2556b8bd3ca08
   languageName: node
   linkType: hard
 
@@ -7698,22 +7675,6 @@ __metadata:
   dependencies:
     randombytes: "npm:^2.1.0"
   checksum: 10c0/73104922ef0a919064346eea21caab99de1a019a1f5fb54a7daa7fcabc39e83b387a2a363e52a889598c3b1bcf507c4b2a7b26df76e991a310657af20eea2e7c
-  languageName: node
-  linkType: hard
-
-"serve-handler@npm:6.1.5":
-  version: 6.1.5
-  resolution: "serve-handler@npm:6.1.5"
-  dependencies:
-    bytes: "npm:3.0.0"
-    content-disposition: "npm:0.5.2"
-    fast-url-parser: "npm:1.1.3"
-    mime-types: "npm:2.1.18"
-    minimatch: "npm:3.1.2"
-    path-is-inside: "npm:1.0.2"
-    path-to-regexp: "npm:2.2.1"
-    range-parser: "npm:1.2.0"
-  checksum: 10c0/6fd393ae37a0305107e634ca545322b00605322189fe70d8f1a4a90a101c4e354768c610efe5a7ef1af3820cec5c33d97467c88151f35a3cb41d8ff2075ef802
   languageName: node
   linkType: hard
 

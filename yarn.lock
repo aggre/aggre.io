@@ -1522,12 +1522,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ramda@npm:0.29.10":
-  version: 0.29.10
-  resolution: "@types/ramda@npm:0.29.10"
+"@types/ramda@npm:0.31.1":
+  version: 0.31.1
+  resolution: "@types/ramda@npm:0.31.1"
   dependencies:
-    types-ramda: "npm:^0.29.7"
-  checksum: 10c0/3aaa75e172a75ad4f236a348cd26c15ff80e71111c9d6e434e0c9acff71f5c9485ff41c6b62fb77bcca771c0942c6443e9fc46b611363c3d867f83a8d856301a
+    types-ramda: "npm:^0.31.0"
+  checksum: 10c0/60c11e66730e2d1c96d480a9e4474be0ae82a84700a34937032c1e46147b8625e1a977361c37ca65e8b29d4368dc942354c7942aebda91b0fd416beac87646d6
   languageName: node
   linkType: hard
 
@@ -2074,7 +2074,7 @@ __metadata:
     "@types/markdown-it": "npm:13.0.9"
     "@types/mocha": "npm:10.0.10"
     "@types/node": "npm:20.19.28"
-    "@types/ramda": "npm:0.29.10"
+    "@types/ramda": "npm:0.31.1"
     "@typescript-eslint/eslint-plugin": "npm:5.62.0"
     "@typescript-eslint/parser": "npm:5.62.0"
     "@web/test-runner": "npm:0.20.2"
@@ -2100,7 +2100,7 @@ __metadata:
     postcss-import: "npm:15.1.0"
     postcss-preset-env: "npm:9.3.0"
     prettier: "npm:3.7.4"
-    ramda: "npm:0.29.1"
+    ramda: "npm:0.32.0"
     rollup: "npm:3.29.5"
     rxjs: "npm:7.8.2"
     serve: "npm:14.2.5"
@@ -7223,10 +7223,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ramda@npm:0.29.1":
-  version: 0.29.1
-  resolution: "ramda@npm:0.29.1"
-  checksum: 10c0/5de53a07400959c1a704c366ec52b1b8cd9a444dc1f9cdf17d607e0b9eeaa38cbaea309d43e59dbd7f36731ba977a64d40092555c0e7c2d4a41e8e922239c0ba
+"ramda@npm:0.32.0":
+  version: 0.32.0
+  resolution: "ramda@npm:0.32.0"
+  checksum: 10c0/6ad24338813cbf91932f7f160e33af9159a540580a43386b974365a8c98b8aa63e2a9d98affa9b2ac4b6628ff34705ddf9ced8f2987c04e3562f58f202c41cf9
   languageName: node
   linkType: hard
 
@@ -8385,12 +8385,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"types-ramda@npm:^0.29.7":
-  version: 0.29.7
-  resolution: "types-ramda@npm:0.29.7"
+"types-ramda@npm:^0.31.0":
+  version: 0.31.0
+  resolution: "types-ramda@npm:0.31.0"
   dependencies:
     ts-toolbelt: "npm:^9.6.0"
-  checksum: 10c0/605c5a4be09f3e3617da99c129ccff7af0ead2e1c5f62b0756af77e574225479d2842b4577dd217f89063583310d71cefe2d7c4687a76a85b7bd23c9f1dea48b
+  checksum: 10c0/fcdd4673fb9a08f82e5f72071200c662cdeb5b785556186645af0c43f9ab999de64c110c4f2a83b508aae985f014839799d2e3c552473543e8458733e6d0174a
   languageName: node
   linkType: hard
 

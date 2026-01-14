@@ -1415,10 +1415,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/highlight.js@npm:9.12.4":
-  version: 9.12.4
-  resolution: "@types/highlight.js@npm:9.12.4"
-  checksum: 10c0/c7eebcd90c639bf4710c6853a11e18b1616767ee91c05ceb16441d07bdade4c4eb83c27b06111197f6d7436b469f71dc4c4f76c4a27fe89b2d441afd232d68e2
+"@types/highlight.js@npm:10.1.0":
+  version: 10.1.0
+  resolution: "@types/highlight.js@npm:10.1.0"
+  dependencies:
+    highlight.js: "npm:*"
+  checksum: 10c0/bffb2c7a625117dd6082197f0999855ce368552159d0b098ef3af02da3cdd7a758f551802329ee2bbdde2ec0af5a997f40fc670af20a5387efe4c5b95a41d444
   languageName: node
   linkType: hard
 
@@ -2145,7 +2147,7 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:16.0.3"
     "@rollup/plugin-typescript": "npm:12.3.0"
     "@types/expect.js": "npm:0.3.32"
-    "@types/highlight.js": "npm:9.12.4"
+    "@types/highlight.js": "npm:10.1.0"
     "@types/js-yaml": "npm:4.0.9"
     "@types/markdown-it": "npm:13.0.9"
     "@types/mocha": "npm:10.0.10"
@@ -4970,7 +4972,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"highlight.js@npm:11.11.1":
+"highlight.js@npm:*, highlight.js@npm:11.11.1":
   version: 11.11.1
   resolution: "highlight.js@npm:11.11.1"
   checksum: 10c0/40f53ac19dac079891fcefd5bd8a21cf2e8931fd47da5bd1dca73b7e4375c1defed0636fc39120c639b9c44119b7d110f7f0c15aa899557a5a1c8910f3c0144c

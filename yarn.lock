@@ -22,16 +22,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aggre/ullr@npm:3.2.0":
-  version: 3.2.0
-  resolution: "@aggre/ullr@npm:3.2.0"
+"@aggre/ullr@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@aggre/ullr@npm:3.3.0"
   dependencies:
     ramda: "npm:^0.30.1"
     type-fest: "npm:^4.26.0"
   peerDependencies:
     lit: ^2.0.0-rc.2 || ^3.0.0
     rxjs: ^6.6.3 || ^6.6.3 || ^6.6.3 || ^7.0.0
-  checksum: 10c0/abd18894d964758b40c837c6a2d97a164f2ad3265fc718ff8766ca219b6059a48406d19f4c5b5c325c7eb71303a63c73cc90ab11c0bcd447ec78ba4a9d6861a0
+  checksum: 10c0/76224e5360e3063841971b293e56398bc749df42960e740faa736de737c66bc10862df3b23ff4ba8d27c0e4a545664cff57305826da9543348e5be5aefb433be
   languageName: node
   linkType: hard
 
@@ -2139,7 +2139,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "aggre.io@workspace:."
   dependencies:
-    "@aggre/ullr": "npm:3.2.0"
+    "@aggre/ullr": "npm:3.3.0"
     "@esm-bundle/chai": "npm:4.3.4-fix.0"
     "@rollup/plugin-commonjs": "npm:29.0.0"
     "@rollup/plugin-json": "npm:6.1.0"

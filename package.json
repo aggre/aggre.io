@@ -70,7 +70,7 @@
 		"happy-dom": "^20.0.0",
 		"list-files-in-dir": "0.1.5",
 		"mocha": "11.7.5",
-		"npm-run-all2": "5.0.2",
+		"npm-run-all2": "8.0.4",
 		"postcss-import": "15.1.0",
 		"prettier": "3.8.0",
 		"rollup": "3.29.5",

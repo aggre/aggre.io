@@ -5060,15 +5060,15 @@ __metadata:
   linkType: hard
 
 "happy-dom@npm:^20.0.0":
-  version: 20.3.0
-  resolution: "happy-dom@npm:20.3.0"
+  version: 20.3.1
+  resolution: "happy-dom@npm:20.3.1"
   dependencies:
     "@types/node": "npm:^20.0.0"
     "@types/whatwg-mimetype": "npm:^3.0.2"
     "@types/ws": "npm:^8.18.1"
     whatwg-mimetype: "npm:^3.0.0"
     ws: "npm:^8.18.3"
-  checksum: 10c0/127cee105e227d4fc41f5c0bc5d1351ac8bf25c01dc672b558162109e05a9c08d8c81cc8e99b0700db17c4621381b2a8733316e2fc74907bc8c8927b8f4b5bfd
+  checksum: 10c0/bb2283e7b897bc55d10ca52033256bfde4a209d981ca50af022fc431252775292971531c0a527c7429af5965043f4fd144d0873ed0fd62ddf4c9dd4ce750908a
   languageName: node
   linkType: hard
 

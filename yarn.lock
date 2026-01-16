@@ -2348,7 +2348,7 @@ __metadata:
     lit: "npm:3.3.2"
     lit-style: "npm:1.1.4"
     markdown-it: "npm:14.1.0"
-    micro: "npm:9.4.1"
+    micro: "npm:10.0.1"
     mocha: "npm:11.7.5"
     npm-run-all2: "npm:8.0.4"
     postcss: "npm:8.5.6"
@@ -6136,16 +6136,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micro@npm:9.4.1":
-  version: 9.4.1
-  resolution: "micro@npm:9.4.1"
+"micro@npm:10.0.1":
+  version: 10.0.1
+  resolution: "micro@npm:10.0.1"
   dependencies:
     arg: "npm:4.1.0"
     content-type: "npm:1.0.4"
     raw-body: "npm:2.4.1"
   bin:
-    micro: bin/micro.js
-  checksum: 10c0/25e4c8f76196cad27550f3ea3a7dfe23c02fe77fe128fb3f071080e720887a4e256f8c71e28ad16eba3cc14ec1f9c233b2979660d9ad5eeeda66a8a9671770d8
+    micro: dist/src/bin/micro.js
+  checksum: 10c0/aab42f3cab0d0b494c3fef63759c38556c649d8f3c56813c6c1e2d7399fa702e9c127bdf72767fba91d7fae9a016ffb6741f2e1bebe1d53cf0a42a92a244b586
   languageName: node
   linkType: hard
 

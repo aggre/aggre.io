@@ -2,6 +2,8 @@
 title: ウェブの歴史から Ethereum のレイヤー構造を俯瞰してみる
 description: Ethereum の 5 つレイヤーとウェブのエコシステムを照らし合わせて、Ethereum がウェブと同じように成長すると仮定したら何が起こるかを考えてみたい。
 image: /asset/image/og.png
+created: 2020-04-30
+updated: 2020-04-30
 ```
 
 # ウェブの歴史から Ethereum のレイヤー構造を俯瞰してみる

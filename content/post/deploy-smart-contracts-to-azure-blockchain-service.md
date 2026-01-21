@@ -2,6 +2,8 @@
 title: Azure Blockchain Service に Solidity のスマートコントラクトをデプロイする
 description: Azure Blockchain Service で Solidity のテストをしたらとても簡単だった。
 image: /asset/image/azure-blockchain-service/setting.png
+created: 2019-08-05
+updated: 2020-04-19
 ```
 
 # Azure Blockchain Service に Solidity のスマートコントラクトをデプロイする
@@ -54,11 +56,7 @@ npm i -D truffle-hdwallet-provider
 const HDWalletProvider = require('truffle-hdwallet-provider')
 
 module.exports = {
-	compilers: {
-		solc: {
-			version: '^0.5.9',
-		},
-	},
+	compilers: { solc: { version: '^0.5.9' } },
 	networks: {
 		azure: {
 			provider: () => new HDWalletProvider('mnemonic words...', 'https://...'),

@@ -2,6 +2,8 @@
 title: 攻殻機動隊 SAC_2045の映像は時代を作るものだと思った
 description: 攻殻機動隊 SAC_2045の1話を見たのでその映像について考えた
 image: /asset/image/www_ghostintheshell-sac2045_jp.jpg
+created: 2020-04-24
+updated: 2020-04-24
 ```
 
 # 攻殻機動隊 SAC_2045 の映像は時代を作るものだと思った

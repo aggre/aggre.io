@@ -2,6 +2,8 @@
 title: Now 2 にアップグレードした
 description: ホームページを Now 2 にアップグレードした
 image: /asset/image/og.png
+created: 2018-11-18
+updated: 2026-01-10
 ```
 
 # Now 2 にアップグレードした

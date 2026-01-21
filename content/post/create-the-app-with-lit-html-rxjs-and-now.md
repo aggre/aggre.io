@@ -2,6 +2,8 @@
 title: lit-html + RxJS + SSR +now でアプリケーションを作る
 description: lit-html + RxJS で FRP な構成のアプリケーションをつくり、SSR もしてみた
 image: /asset/image/og.png
+created: 2018-11-07
+updated: 2026-01-10
 ```
 
 # lit-html + RxJS + SSR +now でアプリケーションを作る

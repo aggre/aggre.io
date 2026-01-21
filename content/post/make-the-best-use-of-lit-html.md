@@ -2,6 +2,8 @@
 title: lit-html を使い倒す
 description: lit-html と(周辺ライブラリと共に)使い倒します
 image: /asset/image/og.png
+created: 2018-12-19
+updated: 2022-02-12
 ```
 
 この記事は [Web Components Advent Calendar 2018](https://qiita.com/advent-calendar/2018/web-components) の 19 日目の投稿です。
@@ -80,7 +82,7 @@ export const template = html`
 		${subscribe(
 			timer(10, 1),
 			(x) => html` <p>${x}</p> `,
-			html` <p>Default content</p> `
+			html` <p>Default content</p> `,
 		)}
 	</main>
 `

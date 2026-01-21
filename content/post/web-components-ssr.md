@@ -2,6 +2,8 @@
 title: Web Components を SSR する方法
 description: Web Components を SSR( Server Side Rendering ) する方法
 image: /asset/image/web-components-ssr.png
+created: 2018-12-01
+updated: 2026-01-10
 ```
 
 この記事は [Web Components Advent Calendar 2018](https://qiita.com/advent-calendar/2018/web-components) の 1 日目の投稿です。

@@ -12,6 +12,7 @@ import { route } from './store/route'
 import { base } from './manager/base'
 import { skip } from 'rxjs/operators'
 import { markedHTML } from './lib/marked-html'
+import { date } from './component/date'
 const { customElements } = window
 const APP = 'x-app'
 const EMBED = 'x-embed'
@@ -36,5 +37,5 @@ content.pipe(skip(RENDERED ? 2 : 0)).subscribe((x) => {
 		while (ROOT.firstChild) ROOT.removeChild(ROOT.firstChild)
 		purged = true
 	}
-	render(html` ${markedHTML(x ? x.body : '')} `, ROOT || document.body)
+	render(html`${date({ created: x?.meta?.created, updated: x?.meta?.updated })} ${markedHTML(x ? x.body : '')} `, ROOT || document.body)
 })

@@ -2,6 +2,8 @@
 title: エストニアかフィンランドへの移住を考えている
 description: 日本に居続けることの懸念, 教育への不安などを抱いている話。
 image: /asset/image/in-the-garden-of-my-parents-house.jpg
+created: 2019-06-11
+updated: 2026-01-10
 ```
 
 # エストニアかフィンランドへの移住を考えている

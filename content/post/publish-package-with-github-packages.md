@@ -2,6 +2,8 @@
 title: GitHub Packages でパッケージを公開する
 description: GitHub Packages を使ってパッケージを公開してみた
 image: /asset/image/get-started-with-github-packages.png
+created: 2019-11-14
+updated: 2019-11-14
 ```
 
 # GitHub Packages でパッケージを公開する

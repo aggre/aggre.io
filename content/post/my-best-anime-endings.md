@@ -2,6 +2,8 @@
 title: My best anime endings
 description: Introducing my best anime endings.
 image: /asset/image/my-best-anime-endings_.png
+created: 2022-05-07
+updated: 2022-05-07
 ```
 
 # My best anime endings - 大好きなアニメ EDs

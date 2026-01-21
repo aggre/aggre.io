@@ -8,8 +8,5 @@ export const parseContent = (content: string): Content => {
 	const [yml] = content.match(regexYaml) || ['']
 	const meta = load(yml.replace(regexMarker, '')) as ContentMeta | undefined
 	const body = content.replace(yml, '')
-	return {
-		meta,
-		body,
-	}
+	return { meta, body }
 }

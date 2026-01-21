@@ -2,6 +2,8 @@
 title: Governanceless DAO
 description: DAO にガバナンスは必要なのか?
 image: /asset/image/governanceless-dao.jpg
+created: 2021-11-01
+updated: 2021-11-02
 ```
 
 (I'll publish English version later)

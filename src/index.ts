@@ -32,10 +32,14 @@ customElements
 base(route, content)
 
 let purged = false
-content.pipe(skip(RENDERED ? 2 : 0)).subscribe((x) => {
+content.pipe(skip(RENDERED ? 1 : 0)).subscribe((x) => {
 	if (!purged && ROOT) {
 		while (ROOT.firstChild) ROOT.removeChild(ROOT.firstChild)
 		purged = true
 	}
-	render(html`${date({ created: x?.meta?.created, updated: x?.meta?.updated })} ${markedHTML(x ? x.body : '')} `, ROOT || document.body)
+	render(
+		html`${date({ created: x?.meta?.created, updated: x?.meta?.updated })}
+		${markedHTML(x ? x.body : '')} `,
+		ROOT || document.body,
+	)
 })

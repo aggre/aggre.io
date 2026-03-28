@@ -2525,7 +2525,7 @@ __metadata:
     rxjs: "npm:7.8.2"
     tslib: "npm:2.8.1"
     typescript: "npm:6.0.2"
-    typescript-lit-html-plugin: "npm:0.9.0"
+    typescript-lit-html-plugin: "npm:0.9.1"
     vite: "npm:8.0.3"
     write: "npm:2.0.0"
   languageName: unknown
@@ -8551,15 +8551,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-lit-html-plugin@npm:0.9.0":
-  version: 0.9.0
-  resolution: "typescript-lit-html-plugin@npm:0.9.0"
+"typescript-lit-html-plugin@npm:0.9.1":
+  version: 0.9.1
+  resolution: "typescript-lit-html-plugin@npm:0.9.1"
   dependencies:
     typescript-styled-plugin: "npm:^0.13.0"
     typescript-template-language-service-decorator: "npm:^2.2.0"
     vscode-html-languageservice: "npm:^2.1.10"
     vscode-languageserver-types: "npm:^3.13.0"
-  checksum: 10c0/f1a618e63e144885b1938b4cc51ca13b35c1167d6342620279ba2983ca53630616d6c3116325e75ded6240f5e37a1c849de09336b6a7dcb82b0a55f5fc4d51e8
+  checksum: 10c0/ff9bb7b79a04612224e240538e0743509724ff2ab727d650029729dd60e2315140b251f603a47eba55494bc7b493df6a0000803f2d1d6dc7ae64c52e66aba94e
   languageName: node
   linkType: hard
 

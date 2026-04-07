@@ -2505,7 +2505,7 @@ __metadata:
     "@web/test-runner-puppeteer": "npm:0.18.0"
     babel-core: "npm:6.26.3"
     babel-preset-env: "npm:1.7.0"
-    cpx2: "npm:8.0.1"
+    cpx2: "npm:8.0.2"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-functional: "npm:4.4.1"
@@ -3828,13 +3828,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cpx2@npm:8.0.1":
-  version: 8.0.1
-  resolution: "cpx2@npm:8.0.1"
+"cpx2@npm:8.0.2":
+  version: 8.0.2
+  resolution: "cpx2@npm:8.0.2"
   dependencies:
     debounce: "npm:^3.0.0"
-    duplexer: "npm:^0.1.1"
-    fs-extra: "npm:^11.1.0"
     glob: "npm:^13.0.0"
     glob2base: "npm:0.0.12"
     ignore: "npm:^7.0.5"
@@ -3845,7 +3843,7 @@ __metadata:
     subarg: "npm:^1.0.0"
   bin:
     cpx: bin/index.js
-  checksum: 10c0/bb558038887be5dc8c867ca000d9eb921a3d2de1128205a306b3193bd444ab94b72b6b71a1714a10cebef70a3c9da1239d29b9f21add7e1d04660d7d1a1564ef
+  checksum: 10c0/71ef53e007a2a302cf4f6830cfdae93e2afde34f70b469a2fd47b40cfa06fb016cf7e79a49a27e1bec5ca378e0b19348e4497b3aba119ad942c36f4377a1f84a
   languageName: node
   linkType: hard
 
@@ -4134,13 +4132,6 @@ __metadata:
   dependencies:
     esutils: "npm:^2.0.2"
   checksum: 10c0/c96bdccabe9d62ab6fea9399fdff04a66e6563c1d6fb3a3a063e8d53c3bb136ba63e84250bbf63d00086a769ad53aef92d2bd483f03f837fc97b71cbee6b2520
-  languageName: node
-  linkType: hard
-
-"duplexer@npm:^0.1.1":
-  version: 0.1.2
-  resolution: "duplexer@npm:0.1.2"
-  checksum: 10c0/c57bcd4bdf7e623abab2df43a7b5b23d18152154529d166c1e0da6bee341d84c432d157d7e97b32fecb1bf3a8b8857dd85ed81a915789f550637ed25b8e64fc2
   languageName: node
   linkType: hard
 
@@ -4761,17 +4752,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^11.1.0":
-  version: 11.3.3
-  resolution: "fs-extra@npm:11.3.3"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/984924ff4104e3e9f351b658a864bf3b354b2c90429f57aec0acd12d92c4e6b762cbacacdffb4e745b280adce882e1f980c485d9f02c453f769ab4e7fc646ce3
-  languageName: node
-  linkType: hard
-
 "fs-minipass@npm:^3.0.0":
   version: 3.0.3
   resolution: "fs-minipass@npm:3.0.3"
@@ -4983,7 +4963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.6":
+"graceful-fs@npm:^4.2.6":
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: 10c0/386d011a553e02bc594ac2ca0bd6d9e4c22d7fa8cfbfc448a6d148c59ea881b092db9dbe3547ae4b88e55f1b01f7c4a2ecc53b310c042793e63aa44cf6c257f2
@@ -5632,19 +5612,6 @@ __metadata:
   version: 1.0.3
   resolution: "jsonc-parser@npm:1.0.3"
   checksum: 10c0/18c49ae1eea2ff6e9e73223214a9ae64e2edb23f9549ce1e86f1c10a65af02082b1ee6b18e65cece5ff1354d13a767a8d5df9665ef1068bc27561fa93b16f191
-  languageName: node
-  linkType: hard
-
-"jsonfile@npm:^6.0.1":
-  version: 6.2.0
-  resolution: "jsonfile@npm:6.2.0"
-  dependencies:
-    graceful-fs: "npm:^4.1.6"
-    universalify: "npm:^2.0.0"
-  dependenciesMeta:
-    graceful-fs:
-      optional: true
-  checksum: 10c0/7f4f43b08d1869ded8a6822213d13ae3b99d651151d77efd1557ced0889c466296a7d9684e397bd126acf5eb2cfcb605808c3e681d0fdccd2fe5a04b47e76c0d
   languageName: node
   linkType: hard
 
@@ -8648,13 +8615,6 @@ __metadata:
   dependencies:
     imurmurhash: "npm:^0.1.4"
   checksum: 10c0/da7ade4cb04eb33ad0499861f82fe95ce9c7c878b7139dc54d140ecfb6a6541c18a5c8dac16188b8b379fe62c0c1f1b710814baac910cde5f4fec06212126c6a
-  languageName: node
-  linkType: hard
-
-"universalify@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "universalify@npm:2.0.1"
-  checksum: 10c0/73e8ee3809041ca8b818efb141801a1004e3fc0002727f1531f4de613ea281b494a40909596dae4a042a4fb6cd385af5d4db2e137b1362e0e91384b828effd3a
   languageName: node
   linkType: hard
 

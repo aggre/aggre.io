@@ -2531,7 +2531,7 @@ __metadata:
     "@web/test-runner-puppeteer": "npm:0.18.0"
     babel-core: "npm:6.26.3"
     babel-preset-env: "npm:1.7.0"
-    cpx2: "npm:8.0.2"
+    cpx2: "npm:9.0.0"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-functional: "npm:4.4.1"
@@ -3878,9 +3878,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cpx2@npm:8.0.2":
-  version: 8.0.2
-  resolution: "cpx2@npm:8.0.2"
+"cpx2@npm:9.0.0":
+  version: 9.0.0
+  resolution: "cpx2@npm:9.0.0"
   dependencies:
     debounce: "npm:^3.0.0"
     glob: "npm:^13.0.0"
@@ -3888,12 +3888,11 @@ __metadata:
     ignore: "npm:^7.0.5"
     minimatch: "npm:^10.0.1"
     p-map: "npm:^7.0.0"
-    resolve: "npm:^1.12.0"
     shell-quote: "npm:^1.8.0"
     subarg: "npm:^1.0.0"
   bin:
     cpx: bin/index.js
-  checksum: 10c0/71ef53e007a2a302cf4f6830cfdae93e2afde34f70b469a2fd47b40cfa06fb016cf7e79a49a27e1bec5ca378e0b19348e4497b3aba119ad942c36f4377a1f84a
+  checksum: 10c0/eae020147adbf5b8c52fc940be44d10bdb7d922d16bb85ab2163786a7349ee34efcca5513df577f08556ca0e3fa53840d974df1d50f4567d08dc67f1590ca7f8
   languageName: node
   linkType: hard
 
@@ -4870,13 +4869,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"function-bind@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "function-bind@npm:1.1.2"
-  checksum: 10c0/d8680ee1e5fcd4c197e4ac33b2b4dce03c71f4d91717292785703db200f5c21f977c568d28061226f9b5900cbcd2c84463646134fd5337e7925e0942bc3f46d5
-  languageName: node
-  linkType: hard
-
 "get-caller-file@npm:^2.0.5":
   version: 2.0.5
   resolution: "get-caller-file@npm:2.0.5"
@@ -5093,15 +5085,6 @@ __metadata:
   dependencies:
     function-bind: "npm:^1.1.1"
   checksum: 10c0/e1da0d2bd109f116b632f27782cf23182b42f14972ca9540e4c5aa7e52647407a0a4a76937334fddcb56befe94a3494825ec22b19b51f5e5507c3153fd1a5e1b
-  languageName: node
-  linkType: hard
-
-"hasown@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "hasown@npm:2.0.2"
-  dependencies:
-    function-bind: "npm:^1.1.2"
-  checksum: 10c0/3769d434703b8ac66b209a4cca0737519925bbdb61dd887f93a16372b14694c63ff4e797686d87c90f08168e81082248b9b028bad60d4da9e0d1148766f56eb9
   languageName: node
   linkType: hard
 
@@ -5356,15 +5339,6 @@ __metadata:
   version: 0.2.1
   resolution: "is-arrayish@npm:0.2.1"
   checksum: 10c0/e7fb686a739068bb70f860b39b67afc62acc62e36bb61c5f965768abce1873b379c563e61dd2adad96ebb7edf6651111b385e490cf508378959b0ed4cac4e729
-  languageName: node
-  linkType: hard
-
-"is-core-module@npm:^2.16.1":
-  version: 2.16.1
-  resolution: "is-core-module@npm:2.16.1"
-  dependencies:
-    hasown: "npm:^2.0.2"
-  checksum: 10c0/898443c14780a577e807618aaae2b6f745c8538eca5c7bc11388a3f2dc6de82b9902bcc7eb74f07be672b11bbe82dd6a6edded44a00cb3d8f933d0459905eedd
   languageName: node
   linkType: hard
 
@@ -7598,19 +7572,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.12.0":
-  version: 1.22.11
-  resolution: "resolve@npm:1.22.11"
-  dependencies:
-    is-core-module: "npm:^2.16.1"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: bin/resolve
-  checksum: 10c0/f657191507530f2cbecb5815b1ee99b20741ea6ee02a59c57028e9ec4c2c8d7681afcc35febbd554ac0ded459db6f2d8153382c53a2f266cee2575e512674409
-  languageName: node
-  linkType: hard
-
 "resolve@npm:^1.22.1":
   version: 1.22.1
   resolution: "resolve@npm:1.22.1"
@@ -7634,19 +7595,6 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 10c0/ef8061e81f40c39070748e8e263c8767d8fcc7c34e9ee85211b29fbc2aedb1ae7cda7d735c2cdbe9367060e9f85ec11c2694e370c121c6bcbb472a7bd0b19555
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@npm%3A^1.12.0#optional!builtin<compat/resolve>":
-  version: 1.22.11
-  resolution: "resolve@patch:resolve@npm%3A1.22.11#optional!builtin<compat/resolve>::version=1.22.11&hash=c3c19d"
-  dependencies:
-    is-core-module: "npm:^2.16.1"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: bin/resolve
-  checksum: 10c0/ee5b182f2e37cb1165465e58c6abc797fec0a80b5ba3231607beb4677db0c9291ac010c47cf092b6daa2b7f518d69a0e21888e7e2b633f68d501a874212a8c63
   languageName: node
   linkType: hard
 

@@ -7620,27 +7620,27 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#optional!builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#optional!builtin<compat/resolve>::version=1.22.0&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.8.1"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10c0/ef8061e81f40c39070748e8e263c8767d8fcc7c34e9ee85211b29fbc2aedb1ae7cda7d735c2cdbe9367060e9f85ec11c2694e370c121c6bcbb472a7bd0b19555
+  checksum: 10c0/0b6884d7e4de47926725237c1e157ee247dbe66ea43f4fa6fcfde81d7db812ad9aa66608741658514336bdf73ab07f635b414b639b9894a2368293cd811d2c5e
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.9.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10c0/0d8ccceba5537769c42aa75e4aa75ae854aac866a11d7e9ffdb1663f0158ee646a0d48fc2818ed5e7fb364d64220a1fb9092a160e11e00cbdd5fbab39a13092c
+  checksum: 10c0/9c8aebb446738574ce107f4afc16bff822b794120322422c77ff7291706b73ecb9b9081205dfc8f2bcecc42bcf6f4d6bec33fa4b963a37a6e0b825232e830e74
   languageName: node
   linkType: hard
 

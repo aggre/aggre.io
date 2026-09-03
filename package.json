@@ -51,7 +51,7 @@
 		"@types/markdown-it": "14.1.2",
 		"@types/mocha": "10.0.10",
 		"@types/node": "24.12.4",
-		"@types/ramda": "0.31.1",
+		"@types/ramda": "0.32.0",
 		"@typescript-eslint/eslint-plugin": "5.62.0",
 		"@typescript-eslint/parser": "5.62.0",
 		"@web/test-runner": "0.20.2",
